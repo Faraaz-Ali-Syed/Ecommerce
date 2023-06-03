@@ -1,0 +1,54 @@
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+    float:right;
+    color: rgb(84, 161, 255);
+}
+
+.span {
+  color: rgb(184, 0, 0);
+}
+
+.nav{
+
+        background-color: #f4f4f4;
+        overflow: hidden;
+        padding: 16px;
+        margin: 10px
+      
+}   
+      /* Style the links inside the navigation bar */
+      .but {
+        float: left;
+        color: #000000;
+        text-align: right;
+        padding: 14px 30px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+
+       /* Style the links inside the navigation bar */
+       .butl {
+        float: left;
+        color: #50aaff;
+        text-align: right;
+        padding: 14px 30px;
+        text-decoration: none;
+        font-size: 17px;
+        background-color: #ffffff;
+        border: 1px solid rgb(0, 0, 0);
+      }
+      
+      /* Change the color of links on hover */
+      .nav Navlink:hover {
+        background-color: #ededed;
+        color: black;
+      }
+      
+      /* Add a color to the active/current link */
+      .nav NavLink.active {
+        background-color: #04AA6D;
+        color: white;
+      }
+
+

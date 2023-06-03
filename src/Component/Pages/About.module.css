@@ -1,0 +1,22 @@
+.about{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+  }
+    
+    .text{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       
+    }
+    
+    .image{
+      display:flex;
+      flex-direction: row;
+    
+    }
+    
+    .image img{
+      border-radius: 50%;
+      width: 300px;
+      height: 300px;
+    }
